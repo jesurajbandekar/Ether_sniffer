@@ -16,7 +16,7 @@ class IP:
     self.i_dst = socket.inet_ntoa(self.i_h[9])
 
   def idis(self):
-    print "  <====================== IP ======================>"
+    print "  <========================== IP ==========================>"
     print "      IP Version : {}".format(self.ver) 
     print "      Header Length: {}".format(self.ihl)
     print "      Time to live : {}".format(self.ttl)

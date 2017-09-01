@@ -22,7 +22,7 @@ class IP:
     print "      Time to live : {}".format(self.ttl)
     print "      Protocol: {}".format (self.pro)   
     print "      Source IP: {}".format(self.i_src)
-    print "      Destination IP: {} \n\n ".format(self.i_dst)
+    print "      Destination IP: {} ".format(self.i_dst)
 
 
 class ARP:
